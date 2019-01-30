@@ -1,0 +1,240 @@
+*{border: 0px;margin: 0px;}
+.container{
+    width:1170px;
+    margin: auto;
+    padding-left: 50px 
+}
+
+.clearfix{clear: both}
+
+.header{background-color: red;}
+
+.Header .slider{
+    
+    background-image: url(Aumine.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.Header .slider .innerslider{
+    
+}
+.Header .slider .title{padding-top: 200px;}
+.Header .slider .title h1{
+     margin: 0px auto;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    width: 400px
+}
+.Header .slider .title button{
+    background: none;
+    width: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: medium;
+    border: 2px solid white;
+}
+
+.Header .navBar{
+    background-color: #252F31;
+    color: blue;
+    overflow: hidden;
+}
+
+.Header .navBar h2{float: left;text-transform: uppercase;}
+
+.Header .navBar span{color: #35E084;}
+
+.Header .navBar ul{
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+    float: right;
+}
+
+.Header .navBar ul li{
+    float: left;
+    padding: 10px;
+}
+.Header .navBar ul li a{
+    color: #FFF;
+    text-decoration: none;  
+}
+
+.Header .navBar ul li a:hover{
+    color:#35E084;
+}
+
+                /* feachers */
+.feachers{overflow: hidden}
+.feat{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    color: #888;
+    padding-bottom: 40px;
+    padding-top: 40px
+}
+.feachers h2{color: #333}
+                /* About Me */
+
+.aboutMe{
+    overflow: hidden;
+    background-color: #DDD;
+}
+
+.aboutMe .mypic{
+    overflow: hidden;
+    float: left;
+    width: 40%;
+}
+.aboutMe .mypic img{width: 100%;overflow: hidden;}
+
+.aboutMe .myinfo{
+    overflow: hidden;
+    float: right;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+.aboutMe .myinfo h1{
+    margin: 40px 0px 40px 20px;
+    line-height: 1.7px;
+}
+
+.aboutMe .myinfo p{text-align: left;margin-left: 40px}
+
+.aboutMe .myinfo .favorits{
+    overflow: hidden;
+    margin: 20px;
+}
+.aboutMe .myinfo .favorits > div{
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    min-height: 100px;
+
+}
+
+             /*Skills*/ 
+   
+.myskills{
+    padding: 30px;
+    overflow: hidden;
+}
+.myskills .skills,
+.myskills .skillsbar{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+.myskills .skills h2{
+    margin: 20px 0px 20px 40px;
+    line-height: 1.7px;
+}
+
+.myskills .skills p{text-align: left;margin-left: 40px;color: #666}
+
+.myskills .skills button{
+    background: none;
+    width: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: medium;
+    border: 2px solid #2DCC70;
+    margin-left: 40px;
+}
+
+.myskills .skillsbar .skill{margin: 15px 0px 15px 40px}
+
+.myskills .skillsbar .skill div{
+    background-color: #F2F2F2;
+    height: 25px
+}
+
+.myskills .skillsbar .skill div span{
+    background-color: #2DCC70;
+    width: 70%;
+    height: 25px;
+    display: block;
+    text-align: right;
+}
+
+
+            /*end Skills*/
+            
+            /*Resume*/
+.Resume{
+    background-color: #DDD;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Resume button{
+        background: none;
+    width: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: medium;
+    border: 2px solid #2DCC70;
+    margin-left: 40px;
+}
+            /*end Resume */
+            
+             /*Education*/ 
+   
+.myeducation{
+    padding: 30px;
+    /*border: dashed 5px red;*/
+    overflow: hidden;
+}
+.myeducation .main,
+.myeducation .Experience{
+    float: left;
+    width: 50%;
+  
+}
+            /*end Education*/
+            
+            /*complicatedname*/
+.complicatedname{
+    background-color: #DDD;
+    overflow: hidden;
+    text-align: center;
+}
+
+            /*portifolio */
+.portifolio{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.portifolio .mywork{
+    overflow: hidden;
+}
+
+.portifolio .my_work > div{
+    float: left;
+    width: 33%;
+    margin-bottom: 15px;    
+}
+
+.portifolio .my_work > div img{ width: 95%}
+
+
+.contactme{
+    background-color: #252F31;
+    color: #6A6E71;
+    overflow: hidden;
+    
+}
+
+.contactme .info,
+.contactme .form{
+    float: left;
+    width: 50%;
+}
